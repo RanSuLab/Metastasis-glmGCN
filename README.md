@@ -1,13 +1,20 @@
 # Metastasis-glmGCN
 Presentation
-Meta-GDBP is a high-level stacked algorithm which has two stages. At the top-level stage, It contains four base models (BMs)--GBM,DBM,PBM,BBM.
-We use each BM to predict response of the drug-cell line pair in CCLE and CGP.
-At the bottom-level stage, We use the weighted method to predict response of the drug-cell line pair in CCLE and CGP.
+--------
+'Distant metastasis identification based on optimized graph representation of gene interaction patterns'
+In this study, we proposed a graph convolutional network embedded with a graph learning module, named glmGCN, to predict the distant metastasis of cancer.
 
-R version
-R-3.4.2
+Dataset
+------
+Cervical squamous cell carcinoma and endocervical adenocarcinoma(CESC)
+Stomach adenocarcinoma(STAD)
+Pancreatic adenocarcinoma(PAAD) 
+Bladder Urothelial Carcinoma(BLCA)
 
-How to Use
-First, you can download the code and put them in your R workspace.
-Then, you can use the following sequence to read the code:pearson->fingerprint->wgcna->kegg->go->cc_elasticnet->cc_svr->dd_fp->kegg_normal->go_normal->lm
-We have put serveral example input files and output files in each dir. You can use them as reference. (The pearson,wgcna,kegg,go dirs need exprSet data.You need to put it in the dir. The file is too large to push it.)
+Protein-Protein Interaction network: https://pan.baidu.com/s/1x8y6PtAmM_HFp2kfyAM3gA 【u8z9】
+
+Version
+--------
+Python   3.6.12
+CUDA     10.0.130
+Tensorflow-gpu 1.14.0
