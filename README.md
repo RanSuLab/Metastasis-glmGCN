@@ -1,7 +1,7 @@
 # Metastasis-glmGCN
 Presentation
 --------
-'Distant metastasis identification based on optimized graph representation of gene interaction patterns'
+'Distant metastasis identification based on optimized graph representation of gene interaction patterns'  
 In this study, we proposed a graph convolutional network embedded with a graph learning module, named glmGCN, to predict the distant metastasis of cancer.
 
 Dataset
