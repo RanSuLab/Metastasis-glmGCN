@@ -13,8 +13,13 @@ Bladder Urothelial Carcinoma(BLCA)
 
 Protein-Protein Interaction network: https://pan.baidu.com/s/1x8y6PtAmM_HFp2kfyAM3gA 【u8z9】
 
+
 Version
 --------
 Python   3.6.12  
 CUDA     10.0.130  
 Tensorflow-gpu 1.14.0  
+
+Usage
+--------
+
