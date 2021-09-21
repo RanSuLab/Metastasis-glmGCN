@@ -22,4 +22,9 @@ Tensorflow-gpu 1.14.0
 
 Usage
 --------
+Take PAAD as an example:
+input_PAAD.csv is a gene expression data file, while PPI_PAAD.npy represents protein-protein interaction relationships.
+We run train_glmGCN.py to get the training and verification results. 
+models_glmGCN is the file used to build the model and layers_glmGCN is the implementation file of graph learning and graph convolution operation.
+inits and utils contain many functions that can be manipulated by other files.
 
